@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 if number < 0:
     num = number * (-1)
-    num3 = number % 10
+    num3 = num % 10
     num4 = num3 * (-1)
     print(f"Last digit of {number} is {num4} and is less than 6 and not 0")
 elif (number % 10) > 0 and (number % 10) < 6:
