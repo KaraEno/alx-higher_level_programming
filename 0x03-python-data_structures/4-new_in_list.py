@@ -15,4 +15,3 @@ def new_in_list(my_list, idx, elem):
         return copy
     copy[idx] = elem
     return copy
-
