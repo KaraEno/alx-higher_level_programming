@@ -7,5 +7,5 @@ def no_c(my_string):
         my_str - the string to filter
     """
     for i in my_string:
-        if my_string[i] != 'c'  and my_string[i] != 'C':
+        if my_string[i] != 'c' or my_string[i] != 'C':
             print(my_string[i])
