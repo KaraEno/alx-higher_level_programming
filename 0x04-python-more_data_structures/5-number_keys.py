@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
 def number_keys(a_dictionary):
+    """
+    return the number of keys in a dict
+    """
+    if a_dictionary is None:
+        return None
     return len(a_dictionary.keys())
 
 if __name__ == '__main__':
