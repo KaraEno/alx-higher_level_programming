@@ -6,7 +6,8 @@ def square_matrix_simple(matrix=[]):
     args: nested list
     Return: square of eacc integer in the array
     """
-
+    if matrix is None:
+        return None
     return list(map(lambda y: [x**2 for x in y], matrix))
 
 if __name__ == '__main__':
